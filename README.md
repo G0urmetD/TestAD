@@ -13,7 +13,7 @@ Note: Every test from this script, counts as failed login on a user account. Be 
 # Test one account with specific password
 Test-ADPasswords -username test1 -password asdF1234 -computername testserver01
 
-# Test several accounts with on specific password
+# Test several accounts with one specific password
 'test1', 'test2' | Test-ADPasswords -password asdF1234 -computername testserver01
 
 # Test user from specific OU
