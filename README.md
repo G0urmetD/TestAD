@@ -1,3 +1,8 @@
+# TestAD Module
+```PowerShell
+Import-Module .\TestAD.psm1
+```
+
 # Test-ADPasswords
 Script to test AD passwords on one or more accounts.
 Note: Every test from this script, counts as failed login on a user account. Be careful to not lock someone out.
